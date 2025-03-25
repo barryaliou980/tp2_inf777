@@ -13,7 +13,7 @@ const PromoBanner = () => {
             </span>
 
             <h2 className="font-bold text-xl lg:text-heading-4 xl:text-heading-3 text-dark mb-5">
-              JUSQU'À 30% DE RÉDUCTION
+              JUSQU&apos;À 30% DE RÉDUCTION
             </h2>
 
             <p>
