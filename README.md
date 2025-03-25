@@ -11,7 +11,7 @@
 Ce projet consiste en la conception et l'intégration d'un site web basé sur l'analyse effectuée lors du TP1. L'objectif principal est de traduire notre prototype en un site web fonctionnel, optimisé pour le référencement, l’accessibilité et l’expérience utilisateur. Le site est structuré en **environ cinq pages**, intégrant des fonctionnalités modernes et respectant les bonnes pratiques du développement web.
 
 ## Objectifs
-- **Intégration HTML/CSS en NextJS** pour un design soigné et une bonne utilisabilité
+- **Intégration HTML/CSS** pour un design soigné et une bonne utilisabilité
 - **Optimisation SEO** pour améliorer la visibilité du site
 - **Accessibilité et Expérience utilisateur** pour garantir un accès fluide à tous les types d’utilisateurs
 - **Mise en ligne** sur un serveur

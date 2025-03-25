@@ -63,19 +63,15 @@ const ShopWithSidebar = () => {
     },
   ];
 
-  const genders = [
+  const devices = [
     {
-      name: "Men",
-      products: 10,
+      name: "Nouveau",
+      products: 10,  // Nombre d'appareils neufs
     },
     {
-      name: "Women",
-      products: 23,
-    },
-    {
-      name: "Unisex",
-      products: 8,
-    },
+      name: "Usage",
+      products: 23,  // Nombre d'appareils d'occasion
+    }
   ];
 
   useEffect(() => {
@@ -158,7 +154,7 @@ const ShopWithSidebar = () => {
                   <CategoryDropdown categories={categories} />
 
                   {/* <!-- gender box --> */}
-                  <GenderDropdown genders={genders} />
+                  <GenderDropdown genders={devices} />
 
                   {/* // <!-- size box --> */}
                   <SizeDropdown />

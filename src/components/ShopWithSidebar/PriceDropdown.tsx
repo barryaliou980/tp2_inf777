@@ -9,7 +9,7 @@ const PriceDropdown = () => {
 
   const [selectedPrice, setSelectedPrice] = useState({
     from: 0,
-    to: 100,
+    to: 1000,
   });
 
   return (
@@ -23,9 +23,8 @@ const PriceDropdown = () => {
           onClick={() => setToggleDropdown(!toggleDropdown)}
           id="price-dropdown-btn"
           aria-label="button for price dropdown"
-          className={`text-dark ease-out duration-200 ${
-            toggleDropdown && "rotate-180"
-          }`}
+          className={`text-dark ease-out duration-200 ${toggleDropdown && "rotate-180"
+            }`}
         >
           <svg
             className="fill-current"
@@ -53,6 +52,8 @@ const PriceDropdown = () => {
               id="range-slider-gradient"
               className="margin-lg"
               step={"any"}
+              min={0}
+              max={10000}
               onInput={(e) =>
                 setSelectedPrice({
                   from: Math.floor(e[0]),
