@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 219 46.1" width="219" height="46.1">
+  <!-- Shopping Cart Icon -->
+  <path d="M35,23.05 
+    C35,28.57 30.52,33.05 25,33.05 
+    C19.48,33.05 15,28.57 15,23.05 
+    C15,17.53 19.48,13.05 25,13.05 
+    C30.52,13.05 35,17.53 35,23.05 Z" 
+    fill="#2563EB" stroke="#2563EB" stroke-width="2"/>
+  
+  <path d="M15,23.05 L10,10.05 L5,10.05" 
+    fill="none" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+  
+  <path d="M35,23.05 L40,10.05 L45,10.05" 
+    fill="none" stroke="#2563EB" stroke-width="3" stroke-linecap="round"/>
+  
+  <circle cx="25" cy="30" r="2" fill="white" stroke="#2563EB" stroke-width="2"/>
+  <circle cx="25" cy="16" r="2" fill="white" stroke="#2563EB" stroke-width="2"/>
+
+  <!-- Text -->
+  <text x="55" y="32" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2563EB">
+    TP 2 SHop
+  </text>
+  
+  <!-- Subtle underline -->
+  <line x1="55" y1="35" x2="170" y2="35" stroke="#2563EB" stroke-width="2"/>
+</svg>

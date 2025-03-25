@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150">
+  <!-- Background rectangle with rounded corners -->
+  <rect x="10" y="25" width="280" height="100" rx="20" fill="#2563EB" />
+  
+  <!-- Inner highlight -->
+  <rect x="20" y="35" width="260" height="80" rx="15" fill="#3B82F6" />
+  
+  <!-- Text "TP2" -->
+  <text x="60" y="95" font-family="Arial, sans-serif" font-weight="bold" font-size="50" fill="white">TP2</text>
+  
+  <!-- Text "SHOP" with different styling -->
+  <text x="150" y="95" font-family="Arial, sans-serif" font-weight="bold" font-size="50" fill="#FFA500">SHOP</text>
+  
+  <!-- Shopping cart icon -->
+  <path d="M240,75 L250,60 L265,60 L275,75 Z" fill="white" />
+  <circle cx="250" cy="85" r="5" fill="white" />
+  <circle cx="270" cy="85" r="5" fill="white" />
+</svg>
