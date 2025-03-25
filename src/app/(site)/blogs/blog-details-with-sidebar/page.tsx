@@ -1,5 +1,5 @@
 import React from "react";
-import BlogDetailsWithSidebar from "@/components/BlogDetailsWithSidebar";
+// import BlogDetailsWithSidebar from "@/components/BlogDetailsWithSidebar";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
@@ -11,7 +11,8 @@ export const metadata: Metadata = {
 const BlogDetailsWithSidebarPage = () => {
   return (
     <main>
-      <BlogDetailsWithSidebar />
+      {/* <BlogDetailsWithSidebar /> */}
+      <h1>test</h1>
     </main>
   );
 };

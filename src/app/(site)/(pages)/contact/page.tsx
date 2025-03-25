@@ -1,4 +1,4 @@
-import Contact from "@/components/Contact";
+
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
@@ -10,7 +10,8 @@ export const metadata: Metadata = {
 const ContactPage = () => {
   return (
     <main>
-      <Contact />
+      {/* <Contact /> */}
+      <h1>test</h1>
     </main>
   );
 };

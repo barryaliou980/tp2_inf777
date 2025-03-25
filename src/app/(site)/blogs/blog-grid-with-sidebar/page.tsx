@@ -1,5 +1,5 @@
 import React from "react";
-import BlogGridWithSidebar from "@/components/BlogGridWithSidebar";
+// import BlogGridWithSidebar from "@/components/BlogGridWithSidebar";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const BlogGridWithSidebarPage = () => {
   return (
     <>
-      <BlogGridWithSidebar />
+      {/* <BlogGridWithSidebar /> */}
     </>
   );
 };
