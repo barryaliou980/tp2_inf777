@@ -72,14 +72,7 @@ export async function generateMetadata(
       site: "@MonTEch",
       title: `${product?.title} | MonTech`,
       description: `Découvrez les détails du produit ${product?.title}. Prix: ${product?.price}€`,
-      images: [
-        {
-          url: product?.imgs?.previews[0] || "https://montech.com/default-product-image.jpg", // URL de l'image
-          width: 1200,
-          height: 675,
-          alt: `Image du produit ${product?.title}`,
-        },
-      ],
+      images: {url:product?.imgs?.previews[0], alt:`Image du produit ${product?.title}`},
     },
   }
 }
