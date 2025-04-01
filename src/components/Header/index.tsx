@@ -38,12 +38,11 @@ const Header = () => {
 
   const options = [
     { label: "All Categories", value: "0" },
-    { label: "Ordinateur", value: "1" },
-    { label: "Tablette", value: "2" },
-    { label: "Cellulaire", value: "3" },
-    { label: "Composant", value: "4" },
-    { label: "Gaming", value: "5" },
-    { label: "Reparation", value: "6" },
+    { label: "Tablettes", value: "1" },
+    { label: "Périphériques", value: "2" },
+    { label: "Imprimantes", value: "3" },
+    { label: "Accessoires", value: "4" },
+    { label: "Réseautique", value: "5" },
   ];
 
   return (
@@ -61,7 +60,7 @@ const Header = () => {
           <div className="xl:w-auto flex-col sm:flex-row w-full flex sm:justify-between sm:items-center gap-5 sm:gap-10">
             <Link className="flex-shrink-0" href="/">
               <Image
-                src="/images/logo/logo6.svg"
+                src="/images/logo/test4.png"
                 alt="Logo"
                 width={219}
                 height={36}
@@ -359,7 +358,7 @@ const Header = () => {
 
                 <li className="py-4">
                   <Link
-                    href="/wishlist"
+                    href="/#"
                     className="flex items-center gap-1.5 font-medium text-custom-sm text-dark hover:text-blue"
                   >
                     <svg

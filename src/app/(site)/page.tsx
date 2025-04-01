@@ -2,8 +2,11 @@ import Home from "@/components/Home";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "NextCommerce | Nextjs E-commerce template",
-  description: "This is Home for NextCommerce Template",
+  icons: {
+    icon: '/images/logo/test4.png', // /public path
+  },
+  title: "MonTech | Accueil - Boutique en ligne de produits high-tech",
+  description: "Découvrez les meilleurs produits high-tech sur MonTech, la boutique en ligne pour les passionnés de technologie.",
 };
 
 export default function HomePage() {

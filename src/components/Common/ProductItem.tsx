@@ -49,7 +49,7 @@ const ProductItem = ({ item }: { item: Product }) => {
     <div className="group">
       <div className="relative overflow-hidden flex items-center justify-center rounded-lg bg-[#F6F7FB] min-h-[270px] mb-4">
         <Link
-          href="/shop-details"
+          href={`/products/${item.id}`}
           onClick={() => {
             localStorage.setItem("productDetails", JSON.stringify(item));
           }}

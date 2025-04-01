@@ -1,18 +1,22 @@
-import Signin from "@/components/Auth/Signin";
+import Signup from "@/components/Auth/Signup";
 import React from "react";
+
 import { Metadata } from "next";
+
 export const metadata: Metadata = {
-  title: "Signin Page | NextCommerce Nextjs E-commerce template",
-  description: "This is Signin Page for NextCommerce Template",
-  // other metadata
+  icons: {
+    icon: '/images/logo/test4.png', // /public path
+  },
+  title: "Signup | MonTech - Créez votre compte",
+  description: "Page d'inscription à MonTech, créez un compte pour profiter de nos produits et services exclusifs.",
 };
 
-const SigninPage = () => {
+const SignupPage = () => {
   return (
     <main>
-      <Signin />
+      <Signup />
     </main>
   );
 };
 
-export default SigninPage;
+export default SignupPage;

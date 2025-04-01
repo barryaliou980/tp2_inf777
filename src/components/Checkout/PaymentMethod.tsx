@@ -85,7 +85,7 @@ const PaymentMethod = () => {
                 </div>
 
                 <div className="border-l border-gray-4 pl-2.5">
-                  <p>Cash on delivery</p>
+                  <p>Credit card</p>
                 </div>
               </div>
             </div>
