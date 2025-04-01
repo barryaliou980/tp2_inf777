@@ -95,7 +95,7 @@ const Contact = () => {
               className="w-full h-[400px] rounded-xl"
               style={{ border: 0 }}
               allowFullScreen
-              loading="lazy"
+
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>

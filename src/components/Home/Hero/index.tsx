@@ -17,6 +17,7 @@ const Hero = () => {
                 className="absolute right-0 bottom-0 -z-1"
                 width={534}
                 height={520}
+                priority // Ajouté pour charger cette image en priorité
               />
 
               <HeroCarousel />
@@ -29,7 +30,7 @@ const Hero = () => {
                 <div className="flex items-center gap-14">
                   <div>
                     <h2 className="max-w-[153px] font-semibold text-dark text-xl mb-20">
-                      <a href="#"> iPhone 14 Plus & 14 Pro Max </a>
+                      <a href="#">iPhone 14 Plus & 14 Pro Max</a>
                     </h2>
 
                     <div>
@@ -53,6 +54,7 @@ const Hero = () => {
                       alt="image du mobile"
                       width={123}
                       height={161}
+                      layout="intrinsic" // Ajouté pour que l'image soit responsive
                     />
                   </div>
                 </div>
@@ -61,7 +63,7 @@ const Hero = () => {
                 <div className="flex items-center gap-14">
                   <div>
                     <h2 className="max-w-[153px] font-semibold text-dark text-xl mb-20">
-                      <a href="#"> Casque sans fil </a>
+                      <a href="#">Casque sans fil</a>
                     </h2>
 
                     <div>
@@ -82,9 +84,10 @@ const Hero = () => {
                   <div>
                     <Image
                       src="/images/hero/hero-01.png"
-                      alt="image du mobile"
+                      alt="image du casque"
                       width={123}
                       height={161}
+                      layout="intrinsic" // Ajouté pour que l'image soit responsive
                     />
                   </div>
                 </div>

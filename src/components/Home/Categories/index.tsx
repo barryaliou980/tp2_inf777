@@ -78,7 +78,7 @@ const Categories = () => {
             </div>
 
             <div className="flex items-center gap-3">
-              <button onClick={handlePrev} className="swiper-button-prev">
+              <button aria-label="Précédent" onClick={handlePrev} className="swiper-button-prev">
                 <svg
                   className="fill-current"
                   width="24"
@@ -96,7 +96,7 @@ const Categories = () => {
                 </svg>
               </button>
 
-              <button onClick={handleNext} className="swiper-button-next">
+              <button aria-label="Suivant" onClick={handleNext} className="swiper-button-next">
                 <svg
                   className="fill-current"
                   width="24"
