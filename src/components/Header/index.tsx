@@ -292,7 +292,7 @@ const Header = () => {
 
         </div >
         <div className="flex w-full text-center text-white bg-[#1A46B0] lg:w-auto items-center justify-center gap-7.5">
-          <h1 class="font-medium text-center w-full">Matériel informatique neuf et usagé : vente, location et réparation.
+          <h1 className="font-medium text-center w-full">Matériel informatique neuf et usagé : vente, location et réparation.
           </h1>
         </div>
         {/* <!-- header top end --> */}
@@ -313,7 +313,7 @@ const Header = () => {
                   <li
                     className="group relative before:w-0 before:h-[3px] before:bg-blue before:absolute before:left-0 before:top-0 before:rounded-b-[3px] before:ease-out before:duration-200 hover:before:w-full "
                   >
-                    <CustomSelect style={{ width: "200px" }} options={options} />
+                    <CustomSelect options={options} />
                   </li>
                   {menuData.map((menuItem, i) =>
                     menuItem.submenu ? (
