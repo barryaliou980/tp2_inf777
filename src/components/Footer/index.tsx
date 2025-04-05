@@ -351,7 +351,7 @@ const Footer = () => {
                 <a href="#" aria-label="système de paiement avec visa">
                   <Image
                     src="/images/payment/payment-01.svg"
-                    alt="carte visa"
+                    alt="log - carte visa"
                     width={66}
                     height={22}
                   />
@@ -359,7 +359,7 @@ const Footer = () => {
                 <a href="#" aria-label="système de paiement avec paypal">
                   <Image
                     src="/images/payment/payment-02.svg"
-                    alt="paypal"
+                    alt="logo - paypal"
                     width={18}
                     height={21}
                   />
@@ -367,7 +367,7 @@ const Footer = () => {
                 <a href="#" aria-label="système de paiement avec carte master">
                   <Image
                     src="/images/payment/payment-03.svg"
-                    alt="carte master"
+                    alt="logo carte master"
                     width={33}
                     height={24}
                   />

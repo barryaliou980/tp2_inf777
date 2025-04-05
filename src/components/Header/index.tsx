@@ -9,6 +9,7 @@ import { useSelector } from "react-redux";
 import { selectTotalPrice } from "@/redux/features/cart-slice";
 import { useCartModalContext } from "@/app/context/CartSidebarModalContext";
 import Image from "next/image";
+import SelectLang from "./SelectLang";
 
 const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -38,11 +39,18 @@ const Header = () => {
 
   const options = [
     { label: "All Categories", value: "0" },
+    { label: "Pc", value: "6" },
     { label: "Tablettes", value: "1" },
     { label: "Périphériques", value: "2" },
     { label: "Imprimantes", value: "3" },
     { label: "Accessoires", value: "4" },
     { label: "Réseautique", value: "5" },
+  ];
+
+  const optionsLang = [
+    { label: "Fr", value: "fr" },
+    { label: "En", value: "en" },
+    { label: "Es", value: "es" },
   ];
 
   return (
@@ -61,7 +69,7 @@ const Header = () => {
             <Link className="flex-shrink-0" href="/">
               <Image
                 src="/images/logo/test4.png"
-                alt="Logo"
+                alt="Montech - logo"
                 width={219}
                 height={36}
               />
@@ -70,7 +78,7 @@ const Header = () => {
             <div className="max-w-[475px] w-full">
               <form>
                 <div className="flex items-center">
-                  {/* <CustomSelect options={options}  /> */}
+                  {/* <CustomSelect options={options} /> */}
                   <div style={{ width: "200px" }}></div>
 
                   <div className="relative max-w-[333px] sm:min-w-[333px] w-full">
@@ -84,7 +92,7 @@ const Header = () => {
                       id="search"
                       placeholder="Recherche sur MyShop"
                       // autoComplete="off"
-                      className="custom-search w-full rounded-r-[5px] bg-gray-1 !border-l-0 border border-gray-3 py-2.5 pl-4 pr-10 outline-none ease-in duration-200"
+                      className="w-full rounded-r-[5px] bg-gray-1 !border-l-0 border border-gray-3 py-2.5 pl-4 pr-10 outline-none ease-in duration-200"
                     />
 
                     <button
@@ -238,6 +246,8 @@ const Header = () => {
                     </p>
                   </div>
                 </button>
+
+                <SelectLang options={optionsLang} />
               </div>
 
               {/* <!-- Hamburger Toggle BTN --> */}
@@ -278,9 +288,15 @@ const Header = () => {
               {/* //   <!-- Hamburger Toggle BTN --> */}
             </div>
           </div>
+
+
+        </div >
+        <div className="flex w-full text-center text-white bg-[#1A46B0] lg:w-auto items-center justify-center gap-7.5">
+          <h1 class="font-medium text-center w-full">Matériel informatique neuf et usagé : vente, location et réparation.
+          </h1>
         </div>
         {/* <!-- header top end --> */}
-      </div>
+      </div >
 
       <div className="border-t border-gray-3">
         <div className="max-w-[1170px] mx-auto px-4 sm:px-7.5 xl:px-0">
@@ -297,7 +313,7 @@ const Header = () => {
                   <li
                     className="group relative before:w-0 before:h-[3px] before:bg-blue before:absolute before:left-0 before:top-0 before:rounded-b-[3px] before:ease-out before:duration-200 hover:before:w-full "
                   >
-                    <CustomSelect options={options} />
+                    <CustomSelect style={{ width: "200px" }} options={options} />
                   </li>
                   {menuData.map((menuItem, i) =>
                     menuItem.submenu ? (
@@ -383,7 +399,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </header>
+    </header >
   );
 };
 

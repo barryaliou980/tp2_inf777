@@ -61,7 +61,7 @@ const ShippingMethod = () => {
                 <div className="pr-4">
                   <Image
                     src="/images/checkout/fedex.svg"
-                    alt="fedex"
+                    alt="logo fedex"
                     width={64}
                     height={18}
                   />
@@ -101,7 +101,7 @@ const ShippingMethod = () => {
                 <div className="pr-4">
                   <Image
                     src="/images/checkout/dhl.svg"
-                    alt="dhl"
+                    alt="logo dhl"
                     width={64}
                     height={20}
                   />

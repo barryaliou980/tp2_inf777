@@ -37,9 +37,9 @@ const HeroCarousal = () => {
               </span>
             </div>
 
-            <h1 className="font-semibold text-dark text-xl sm:text-3xl mb-3">
+            <h2 className="font-semibold text-dark text-xl sm:text-3xl mb-3">
               <a href="#">Casque sans fil à réduction de bruit</a>
-            </h1>
+            </h2>
 
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at ipsum at risus euismod lobortis in.
@@ -56,7 +56,7 @@ const HeroCarousal = () => {
           <div>
             <Image
               src="/images/hero/hero-01.png"
-              alt="casque"
+              alt="image casque apple"
               width={351}
               height={358}
             />
@@ -77,9 +77,9 @@ const HeroCarousal = () => {
               </span>
             </div>
 
-            <h1 className="font-semibold text-dark text-xl sm:text-3xl mb-3">
+            <h2 className="font-semibold text-dark text-xl sm:text-3xl mb-3">
               <a href="#">Casque sans fil à réduction de bruit</a>
-            </h1>
+            </h2>
 
             <p>
               Lorem ipsum dolor sit, consectetur elit nunc suscipit non ipsum nec suscipit.
@@ -96,7 +96,7 @@ const HeroCarousal = () => {
           <div>
             <Image
               src="/images/hero/hero-01.png"
-              alt="casque"
+              alt="image casque apple"
               width={351}
               height={358}
             />

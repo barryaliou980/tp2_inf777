@@ -33,7 +33,7 @@ const Testimonials = () => {
                 <span className="flex items-center gap-2.5 font-medium text-dark mb-1.5">
                   <Image
                     src="/images/icons/icon-08.svg"
-                    alt="icon"
+                    alt="icon testimonials"
                     width={17}
                     height={17}
                   />

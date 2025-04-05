@@ -104,7 +104,7 @@ const QuickViewModal = () => {
                     >
                       <Image
                         src={img || ""}
-                        alt="thumbnail"
+                        alt={product.title || "image du produit 1"}
                         width={61}
                         height={61}
                         className="aspect-square"
@@ -139,7 +139,7 @@ const QuickViewModal = () => {
 
                     <Image
                       src={product?.imgs?.previews?.[activePreview]}
-                      alt="products-details"
+                      alt={product.title || "image du produit 2"}
                       width={400}
                       height={400}
                     />

@@ -129,7 +129,7 @@ const ShopDetails = () => {
 
                       <Image
                         src={product.imgs?.previews[previewImg]}
-                        alt="products-details"
+                        alt={product.title}
                         width={400}
                         height={400}
                       />
@@ -151,7 +151,7 @@ const ShopDetails = () => {
                           width={50}
                           height={50}
                           src={item}
-                          alt="thumbnail"
+                          alt={product.title}
                         />
                       </button>
                     ))}
@@ -728,22 +728,22 @@ const ShopDetails = () => {
                     </h2>
 
                     <p className="mb-6">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the
-                      industry&apos;s standard dummy text ever since the 1500s,
-                      when an unknown printer took a galley of type and
-                      scrambled it to make a type specimen book.
+                      {
+                        product.description === "" ?
+                          <>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br />
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br />
+                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                          </>
+
+
+                          : (
+                            <>{product.description}</>
+                          )
+                      }
+
                     </p>
-                    <p className="mb-6">
-                      It has survived not only five centuries, but also the leap
-                      into electronic typesetting, remaining essentially
-                      unchanged. It was popularised in the 1960s.
-                    </p>
-                    <p>
-                      with the release of Letraset sheets containing Lorem Ipsum
-                      passages, and more recently with desktop publishing
-                      software like Aldus PageMaker including versions.
-                    </p>
+
                   </div>
 
                   <div className="max-w-[447px] w-full">
@@ -752,17 +752,12 @@ const ShopDetails = () => {
                     </h2>
 
                     <p className="mb-6">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the
-                      industry&apos;s standard dummy text ever since the 1500s,
-                      when an unknown printer took a galley of type and
-                      scrambled it to make a type specimen book.
+                      Pour prolonger la durée de vie de votre produit, nettoyez-le régulièrement avec un chiffon doux et évitez les produits chimiques agressifs.
+                      Conservez-le dans un endroit sec et à température modérée. Utilisez uniquement des accessoires certifiés et contactez un service autorisé pour toute réparation.
+
+
                     </p>
-                    <p>
-                      It has survived not only five centuries, but also the leap
-                      into electronic typesetting, remaining essentially
-                      unchanged. It was popularised in the 1960s.
-                    </p>
+
                   </div>
                 </div>
               </div>

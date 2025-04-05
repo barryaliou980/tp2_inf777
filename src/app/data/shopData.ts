@@ -33,6 +33,8 @@ const shopData: Product[] = [
         "/images/products/product-2-bg-2.png",
       ],
     },
+    description:
+      "L'iPhone 14 d'Apple est rempli de fonctions fantastiques. Avec le système à deux caméras le plus impressionnant qui soit, il prend de superbes photos dans des conditions de faible éclairage et de forte luminosité. De plus, ayez l'esprit tranquille grâce à ses fonctions de sécurité révolutionnaires.",
   },
   {
     title: "Apple iMac M1 24 pouces 2021",
@@ -50,6 +52,7 @@ const shopData: Product[] = [
         "/images/products/product-3-bg-2.png",
       ],
     },
+    description: "",
   },
   {
     title: "MacBook Air puce M1, 8/256 Go",
@@ -67,6 +70,8 @@ const shopData: Product[] = [
         "/images/products/product-4-bg-2.png",
       ],
     },
+    description:
+      "pour MAC 21:Profitez d'une performance fiable et rapide avec l'iMac d'Apple. Doté d'une puce M1 d'Apple et de 8 Go de mémoire vive, il prend en charge facilement le multitâche pour que vous puissiez travailler efficacement sur vos projets. Son écran Retina de 4,5 K avec une gamme de couleurs étendue P3 donne vie à votre contenu avec des détails nets, et il est fourni avec un clavier Magic et une souris Magic pour pouvoir commencer à l'utiliser",
   },
   {
     title: "Apple Watch Ultra",
@@ -84,6 +89,7 @@ const shopData: Product[] = [
         "/images/products/product-5-bg-2.png",
       ],
     },
+    description: "",
   },
   {
     title: "Souris Logitech MX Master 3",
@@ -101,6 +107,7 @@ const shopData: Product[] = [
         "/images/products/product-6-bg-2.png",
       ],
     },
+    description: "",
   },
   {
     title: "Apple iPad Air 5e génération - 64 Go",
@@ -135,6 +142,7 @@ const shopData: Product[] = [
         "/images/products/product-8-bg-2.png",
       ],
     },
+    description: "",
   },
 ];
 

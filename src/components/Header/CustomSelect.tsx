@@ -44,14 +44,14 @@ const CustomSelect = ({ options }) => {
       <div className={`select-items ${isOpen ? "" : "select-hide"}`}>
         {options.slice(1, -1).map((option, index) => (
           <div
-            onClick={() => window.location.href = '/'}
+            onClick={() => window.location.href = '/products'}
             key={index}
             // onClick={() => handleOptionClick(option)}
             className={`select-item ${selectedOption === option ? "same-as-selected" : ""
               }`}
           >
             <Link
-              href="/">
+              href="/products">
               {option.label}
             </Link>
           </div>

@@ -31,7 +31,7 @@ const MyAccount = () => {
                   <div className="max-w-[64px] w-full h-16 rounded-full overflow-hidden">
                     <Image
                       src="/images/users/user-04.jpg"
-                      alt="user"
+                      alt="user logo"
                       width={64}
                       height={64}
                     />
