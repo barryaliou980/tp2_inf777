@@ -69,11 +69,11 @@ const ShopDetails = () => {
     },
     {
       id: "tabTwo",
-      title: "Additional Information",
+      title: "Informations supplémentaires",
     },
     {
       id: "tabThree",
-      title: "Reviews",
+      title: "Avis",
     },
   ];
 
@@ -736,7 +736,7 @@ const ShopDetails = () => {
                 >
                   <div className="max-w-[670px] w-full">
                     <h2 className="font-medium text-2xl text-dark mb-7">
-                      Specifications:
+                      Spécifications:
                     </h2>
 
                     <p className="mb-6">
@@ -760,7 +760,7 @@ const ShopDetails = () => {
 
                   <div className="max-w-[447px] w-full">
                     <h2 className="font-medium text-2xl text-dark mb-7">
-                      Care & Maintenance:
+                      Entretien et maintenance:
                     </h2>
 
                     <p className="mb-6">

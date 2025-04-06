@@ -39,7 +39,7 @@ const Header = () => {
 
   const options = [
     { label: "All Categories", value: "0" },
-    { label: "Pc", value: "6" },
+    { label: "PC", value: "6" },
     { label: "Tablettes", value: "1" },
     { label: "Périphériques", value: "2" },
     { label: "Imprimantes", value: "3" },
@@ -271,9 +271,14 @@ const Header = () => {
             </button>
           </div>
         </div>
+        <div className="flex w-full text-center text-white bg-[#1A46B0] lg:w-auto items-center justify-center gap-7.5">
+          <h1 className="font-medium text-center w-full">Matériel informatique neuf et usagé : vente, location et réparation.
+          </h1>
+        </div>
       </div>
 
-      <div className="border-t border-gray-3">
+
+      <div className="border-t mt-4 border-gray-3">
         <div className="max-w-[1170px] mx-auto px-4 sm:px-7.5 xl:px-0">
           <div className="flex items-center justify-between">
             {/* <!--=== Main Nav Start ===--> */}
