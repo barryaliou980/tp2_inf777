@@ -798,7 +798,7 @@ const ShopDetails = () => {
                     </div>
                     <div className="w-full">
                       <p className="text-sm sm:text-base text-dark">
-                        iPhone 14 Plus
+                        {product?.title === "Apple iMac M1 24 pouces 2021" ? 'iMac M1' : ' iPhone 14 Plus'}
                       </p>
                     </div>
                   </div>
@@ -812,7 +812,7 @@ const ShopDetails = () => {
                     </div>
                     <div className="w-full">
                       <p className="text-sm sm:text-base text-dark">
-                        6.7 inches
+                        {product?.title === "Apple iMac M1 24 pouces 2021" ? "24 pouces" : "6.7 inches"}
                       </p>
                     </div>
                   </div>
@@ -826,8 +826,7 @@ const ShopDetails = () => {
                     </div>
                     <div className="w-full">
                       <p className="text-sm sm:text-base text-dark">
-                        Super Retina XDR OLED, HDR10, Dolby Vision, 800 nits
-                        (HBM), 1200 nits (peak)
+                        {product?.title === "Apple iMac M1 24 pouces 2021" ? "Retina 4.5K, P3 wide color gamut, True Tone" : "Super Retina XDR OLED, HDR10, Dolby Vision, 800 nits (HBM), 1200 nits (peak)"}
                       </p>
                     </div>
                   </div>
@@ -841,7 +840,7 @@ const ShopDetails = () => {
                     </div>
                     <div className="w-full">
                       <p className="text-sm sm:text-base text-dark">
-                        1284 x 2778 pixels, 19.5:9 ratio
+                        {product?.title === "Apple iMac M1 24 pouces 2021" ? "4480 x 2520 pixels" : "1284 x 2778 pixels, 19.5:9 ratio"}
                       </p>
                     </div>
                   </div>
@@ -853,7 +852,7 @@ const ShopDetails = () => {
                     </div>
                     <div className="w-full">
                       <p className="text-sm sm:text-base text-dark">
-                        Apple A15 Bionic (5 nm)
+                        {product?.title === "Apple iMac M1 24 pouces 2021" ? "Apple M1 (5 nm)" : "Apple A15 Bionic (5 nm)"}
                       </p>
                     </div>
                   </div>
@@ -865,7 +864,7 @@ const ShopDetails = () => {
                     </div>
                     <div className="w-full">
                       <p className="text-sm sm:text-base text-dark">
-                        128GB 6GB RAM | 256GB 6GB RAM | 512GB 6GB RAM
+                        {product?.title === "Apple iMac M1 24 pouces 2021" ? "8GB Unified RAM | Configurable up to 16GB" : "128GB 6GB RAM | 256GB 6GB RAM | 512GB 6GB RAM"}
                       </p>
                     </div>
                   </div>
@@ -879,7 +878,7 @@ const ShopDetails = () => {
                     </div>
                     <div className="w-full">
                       <p className="text-sm sm:text-base text-dark">
-                        12MP + 12MP | 4K@24/25/30/60fps, stereo sound rec.
+                        {product?.title === "Apple iMac M1 24 pouces 2021" ? "1080p FaceTime HD camera" : "12MP + 12MP | 4K@24/25/30/60fps, stereo sound rec."}
                       </p>
                     </div>
                   </div>
@@ -893,8 +892,7 @@ const ShopDetails = () => {
                     </div>
                     <div className="w-full">
                       <p className="text-sm sm:text-base text-dark">
-                        12 MP | 4K@24/25/30/60fps, 1080p@25/30/60/120fps,
-                        gyro-EIS
+                        {product?.title === "Apple iMac M1 24 pouces 2021" ? "N/A" : "12 MP | 4K@24/25/30/60fps, 1080p@25/30/60/120fps,gyro-EIS"}
                       </p>
                     </div>
                   </div>
@@ -908,8 +906,7 @@ const ShopDetails = () => {
                     </div>
                     <div className="w-full">
                       <p className="text-sm sm:text-base text-dark">
-                        Li-Ion 4323 mAh, non-removable | 15W wireless (MagSafe),
-                        7.5W wireless (Qi)
+                        {product?.title === "Apple iMac M1 24 pouces 2021" ? "N/A (Desktop – powered by AC supply)" : "Li-Ion 4323 mAh, non-removable | 15W wireless (MagSafe),7.5W wireless (Qi)"}
                       </p>
                     </div>
                   </div>
