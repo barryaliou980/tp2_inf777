@@ -81,11 +81,12 @@ const SingleItem = ({ item }: { item: Product }) => {
           </div>
 
           <h3 className="font-medium text-dark ease-out duration-200 hover:text-blue mb-1.5">
-            <Link href="/shop-details"
+            <Link
+              href={`/products/${item.id}`}
               onClick={() => {
                 localStorage.setItem("productDetails", JSON.stringify(item));
               }}
-              > {item.title} </Link>
+            > {item.title} </Link>
           </h3>
 
           <span className="flex items-center justify-center gap-2 font-medium text-lg">
@@ -95,12 +96,13 @@ const SingleItem = ({ item }: { item: Product }) => {
         </div>
 
         <div className="flex justify-center items-center">
-          <Link href="/shop-details"
+          <Link
+            href={`/products/${item.id}`}
             onClick={() => {
               localStorage.setItem("productDetails", JSON.stringify(item));
             }}
           >
-          <Image src={item.imgs.previews[0]} alt={item.title} width={280} height={280} />
+            <Image src={item.imgs.previews[0]} alt={item.title} width={280} height={280} />
           </Link>
         </div>
 

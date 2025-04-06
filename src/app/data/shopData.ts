@@ -52,7 +52,8 @@ const shopData: Product[] = [
         "/images/products/product-3-bg-2.png",
       ],
     },
-    description: "",
+    description:
+      "Pour MAC 21:Profitez d'une performance fiable et rapide avec l'iMac d'Apple. Doté d'une puce M1 d'Apple et de 8 Go de mémoire vive, il prend en charge facilement le multitâche pour que vous puissiez travailler efficacement sur vos projets. Son écran Retina de 4,5 K avec une gamme de couleurs étendue P3 donne vie à votre contenu avec des détails nets, et il est fourni avec un clavier Magic et une souris Magic pour pouvoir commencer à l'utiliser",
   },
   {
     title: "MacBook Air puce M1, 8/256 Go",
@@ -70,8 +71,7 @@ const shopData: Product[] = [
         "/images/products/product-4-bg-2.png",
       ],
     },
-    description:
-      "Pour MAC 21:Profitez d'une performance fiable et rapide avec l'iMac d'Apple. Doté d'une puce M1 d'Apple et de 8 Go de mémoire vive, il prend en charge facilement le multitâche pour que vous puissiez travailler efficacement sur vos projets. Son écran Retina de 4,5 K avec une gamme de couleurs étendue P3 donne vie à votre contenu avec des détails nets, et il est fourni avec un clavier Magic et une souris Magic pour pouvoir commencer à l'utiliser",
+    description: "",
   },
   {
     title: "Apple Watch Ultra",

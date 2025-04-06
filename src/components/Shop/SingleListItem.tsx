@@ -45,7 +45,7 @@ const SingleListItem = ({ item }: { item: Product }) => {
       <div className="flex">
         <div className="shadow-list relative overflow-hidden flex items-center justify-center max-w-[270px] w-full sm:min-h-[270px] p-4">
           <Link
-            href="/shop-details"
+            href={`/products/${item.id}`}
             onClick={() => {
               localStorage.setItem("productDetails", JSON.stringify(item));
             }}

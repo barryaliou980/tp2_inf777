@@ -6,12 +6,16 @@ import Newsletter from "../Common/Newsletter";
 import RecentlyViewdItems from "./RecentlyViewd";
 import { usePreviewSlider } from "@/app/context/PreviewSliderContext";
 import { useAppSelector } from "@/redux/store";
+import { addItemToCart } from "@/redux/features/cart-slice";
+import { useDispatch } from "react-redux";
+import { AppDispatch } from "@/redux/store";
 
 const ShopDetails = () => {
   const [activeColor, setActiveColor] = useState("blue");
   const { openPreviewModal } = usePreviewSlider();
   const [previewImg, setPreviewImg] = useState(0);
 
+  const dispatch = useDispatch<AppDispatch>();
   const [storage, setStorage] = useState("gb128");
   const [type, setType] = useState("active");
   const [sim, setSim] = useState("dual");
@@ -89,6 +93,14 @@ const ShopDetails = () => {
   // pass the product here when you get the real data.
   const handlePreviewSlider = () => {
     openPreviewModal();
+  };
+  const handleAddToCart = (item) => {
+    dispatch(
+      addItemToCart({
+        ...item,
+        quantity: 1,
+      })
+    );
   };
 
   return (
@@ -662,12 +674,12 @@ const ShopDetails = () => {
                         </button>
                       </div>
 
-                      <a
-                        href="#"
+                      <button
+                        onClick={() => handleAddToCart(product)}
                         className="inline-flex font-medium text-white bg-blue py-3 px-7 rounded-md ease-out duration-200 hover:bg-blue-dark"
                       >
                         Purchase Now
-                      </a>
+                      </button>
 
                       <a
                         href="#"

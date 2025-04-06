@@ -1,11 +1,11 @@
 const data = [
   {
-    title: "Televisions",
+    title: "PC neuf",
     id: 1,
     img: "/images/categories/categories-01.png",
   },
   {
-    title: "Laptop & PC",
+    title: "PC Usagé",
     id: 2,
     img: "/images/categories/categories-02.png",
   },
@@ -15,12 +15,12 @@ const data = [
     img: "/images/categories/categories-03.png",
   },
   {
-    title: "Games & Videos",
+    title: "Périphériques",
     id: 4,
     img: "/images/categories/categories-04.png",
   },
   {
-    title: "Home Appliances",
+    title: "Accessoires",
     id: 5,
     img: "/images/categories/categories-05.png",
   },

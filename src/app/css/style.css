@@ -64,7 +64,7 @@ input[type='search']::-webkit-search-results-decoration {
 }
 
 .select-selected {
-  @apply bg-gray-1 rounded-l-[5px] border border-gray-3 !border-r-0 cursor-pointer text-dark text-custom-sm py-[11px] pl-3.5 pr-8 relative;
+  @apply bg-gray-1 rounded-l-[5px] border border-gray-3  cursor-pointer text-dark text-custom-sm py-[11px] pl-3.5 pr-8 relative;
 }
 
 /* Style the arrow inside the select element: */
