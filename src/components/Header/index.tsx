@@ -79,7 +79,15 @@ const Header = () => {
               <form>
                 <div className="flex items-center">
                   {/* <CustomSelect options={options} /> */}
-                  <div style={{ width: "200px" }}></div>
+                  <div className="mr-5">
+                    <span className="block text-2xs text-dark-4 uppercase">
+                      SUPPORT 24/7
+                    </span>
+                    <p className="font-medium text-custom-sm text-dark">
+                      +1 (000) 000-000
+                    </p>
+                  </div>
+
 
                   <div className="relative max-w-[333px] sm:min-w-[333px] w-full">
                     {/* <!-- divider --> */}
@@ -147,15 +155,6 @@ const Header = () => {
                   fill="#3C50E0"
                 />
               </svg>
-
-              <div>
-                <span className="block text-2xs text-dark-4 uppercase">
-                  SUPPORT 24/7
-                </span>
-                <p className="font-medium text-custom-sm text-dark">
-                  +1(000) 000-000
-                </p>
-              </div>
             </div>
 
             {/* <!-- divider --> */}
