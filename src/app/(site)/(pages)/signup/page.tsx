@@ -6,8 +6,8 @@ export const metadata: Metadata = {
   icons: {
     icon: '/images/logo/test4.png', // /public path
   },
-  title: "Signup Page | NextCommerce Nextjs E-commerce template",
-  description: "This is Signup Page for NextCommerce Template",
+  title: "Signup Page | Montech Nextjs E-commerce template",
+  description: "This is Signup Page for Montech Template",
   // other metadata
 };
 

@@ -13,6 +13,7 @@ import CartSidebarModal from "@/components/Common/CartSidebarModal";
 import { PreviewSliderProvider } from "../context/PreviewSliderContext";
 import PreviewSliderModal from "@/components/Common/PreviewSlider";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import ScrollToTop from "@/components/Common/ScrollToTop";
 import PreLoader from "@/components/Common/PreLoader";
 
@@ -49,6 +50,7 @@ export default function RootLayout({
                     <Header />
                     {children}
                     <Analytics />
+                    <SpeedInsights />
                     <QuickViewModal />
                     <CartSidebarModal />
                     <PreviewSliderModal />

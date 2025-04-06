@@ -1,23 +1,6 @@
 import React from "react";
 import ShopDetails from "@/components/ShopDetails";
-// import { Metadata } from "next";
 
-// export const metadata: Metadata = {
-//   title: "Shop Details Page | MonTech",
-//   description: "Shop Details Page",
-//   // other metadata
-// };
-
-// const ShopDetailsPage = () => {
-
-//   return (
-//     <main>
-//       <ShopDetails  id={id} />
-//     </main>
-//   );
-// };
-
-// export default ShopDetailsPage;
 import shopData from '@/app/data/shopData'
 import type { Metadata, ResolvingMetadata } from 'next'
 type Props = {
@@ -31,10 +14,8 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   // read route params
   const { id } = await params
-
   // fetch data
   const product = shopData.find((value) => value.id.toString() === id)
-
   // optionally access and extend (rather than replace) parent metadata
   console.log('product', product)
 

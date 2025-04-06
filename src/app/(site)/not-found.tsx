@@ -7,8 +7,8 @@ export const metadata: Metadata = {
   icons: {
     icon: '/images/logo/test4.png"', // /public path
   },
-  title: "Error Page | NextCommerce Nextjs E-commerce template",
-  description: "This is Error Page for NextCommerce Template",
+  title: " Page Erreur | Montech ",
+  description: "Page Erreur  Montech ",
   // other metadata
 };
 
